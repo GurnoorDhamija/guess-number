@@ -11,6 +11,13 @@ low = 1
 high = 30
 guesslimit = 5
 
+print("The Game is starting...")
+print("Welcome to the Guessing Game!")
+
+print("Please enter your name.")
+name_1 = input()
+print("Hello", name_1, "Glad to you see here")
+
 print("Guess a number between {0} and {1}".format(low, high))
 print("You have {0} guesses to get the right number".format(guesslimit))
 
